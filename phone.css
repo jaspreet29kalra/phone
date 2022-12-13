@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(99, 166, 224);
+    /* margin: 0; */
+    /* padding: 0; */
+}
+.row{
+    margin: 0 auto;
+    width:300px;
+    text-align: center;
+    /* font-family: 'Exo'; */
+}
+
+.num{
+    float: left;
+    padding: 10px 30px;
+    width: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.alpha{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.container{
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    margin: 30px auto;
+    height:420px;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+    #output{
+        font-family: "Exo";
+        font-size: 2rem;
+        height: 60px;
+        font-weight: bold;
+        color: black;
+    }
+    #call{
+        display: inline-block;
+        background-color: green;
+        padding: 7px 30px;
+        margin: 10px;
+        color: honeydew;
+        border-radius: 4px;
+         float: left;  
+        cursor: pointer;
+    }
+    .botrow{
+        margin: 0 auto;
+        width:280px;
+        text-align: center;
+        clear: both;
+}
+.num:active{
+    background-color: rgb(192, 186, 186);
+}
+
+#call:hover{
+    background-color: #81c784;
+}
+
+.dig{
+    float: left;
+    padding: 10px 20px;
+    margin: 10px;
+    width: 30px;
+    cursor: pointer;
+}
